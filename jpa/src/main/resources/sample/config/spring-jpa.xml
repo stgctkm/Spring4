@@ -43,8 +43,8 @@
   <context:component-scan base-package="sample.jpa.dataaccess"/>
   
   <jdbc:embedded-database id="dataSource" type="HSQL">
-    <jdbc:script location="../../script/table.sql"/>
-    <jdbc:script location="../../script/data.sql"/>
+    <jdbc:script location="script/table.sql"/>
+    <jdbc:script location="/script/data.sql"/>
   </jdbc:embedded-database>
   
 </beans>
